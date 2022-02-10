@@ -1,0 +1,27 @@
+{
+  "id": "5eb4e818-1442-445a-9df1-6ae926afbf65",
+  "name": "LITEZONE",
+  "publisher": "RCTS",
+  "version": "1.0.0.0",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "17.0.0.0",
+  "application": "17.0.0.0",
+  "idRanges": [
+    {
+      "from": 50000,
+      "to": 99999
+    }
+  ],
+  "contextSensitiveHelpUrl": "https://ALProject1.com/help/",
+  "showMyCode": true,
+  "runtime": "6.0",
+  "target": "OnPrem"
+}
