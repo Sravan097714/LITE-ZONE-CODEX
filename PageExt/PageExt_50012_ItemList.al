@@ -72,8 +72,12 @@ pageextension 50012 ItemListExt extends "Item List"
             field("ATTRIBUTE 8"; "ATTRIBUTE 8") { ApplicationArea = All; }
             field("ATTRIBUTE 9"; "ATTRIBUTE 9") { ApplicationArea = All; }
             field("Rounding Precision"; "Rounding Precision") { ApplicationArea = All; }
-            field("Qty. on Component Lines"; Rec."Qty. on Component Lines") { ApplicationArea = all; }
 
+
+        }
+        addafter("Reserved Qty. on Purch. Orders")
+        {
+            field("Qty. on Component Lines"; Rec."Qty. on Component Lines") { ApplicationArea = all; }
         }
 
         addafter(InventoryField)
